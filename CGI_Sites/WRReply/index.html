@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <h1>Common Gateway Interface</h1>
+        <h3>Echoing User Input</h3>
+        <form action="http://localhost/cgi-bin/echo.cgi">
+        <input size="20" name="sample" type="text">
+        <input type="submit" value="Send">
+        </form>
+<form action="http://localhost/cgi-bin/collect.cgi"
+ method="post">
+    <div>Fake registration to virtual party:<div>
+    <div>Name: <input name="name" size="30"></div>
+    <div>E-mail: <input name="email" size="25"></div>
+    <div><input type="radio" name="food" value="" checked>
+    Food preference (select one):<br>
+    <input type="radio" name="food" value="Swedish meatballs">
+     Swedish meatballs<br>
+    <input type="radio" name="food" value="Fish sticks">
+     Fish sticks<br>
+    <input type="radio" name="food" value="Falafel">
+     Falafel (this is vegetarian food)<br>
+    <input type="radio" name="food" value="no food">
+     None (i.e., will not eat)<div>
+    <div><input type="submit"></div>
+</form>
+
+    </body>
+</html>
